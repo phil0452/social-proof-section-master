@@ -1,0 +1,87 @@
+@media screen and (min-width: 375px) {
+	section .flex-row #right-column {
+		padding-right: 0;
+	}
+	section .flex-row .testimony {
+		width: 100%;
+		box-sizing: border-box;
+	}
+}
+
+@media screen and (min-width: 1140px) {	
+	section {
+		width: 1060px;
+		margin: 50px auto;
+	}
+	
+	section .flex-row {
+		display: flex;
+		
+	}
+	section .flex-row #left-column {
+	    text-align: left;
+		flex: 1 1 50%;
+	}
+	section .flex-row #left-column #headline{
+		font-size: 42px;
+		line-height: 45px;
+		padding: 0;
+	}
+	
+	section .flex-row #left-column p {		
+		width: 480px;		
+		padding: 0;
+	}
+	section .flex-row #right-column {
+		flex: 1 1 50%;
+		margin-top: auto;
+		padding: 0;
+	}
+	
+	section .flex-row #right-column #rating-flex {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	section .flex-row #right-column .rating-container .stars{
+		padding-bottom: 0;
+	}
+	section .flex-row #right-column #rating-flex #rating-reviews {
+		align-self: flex-start;
+	}
+	section .flex-row #right-column #rating-flex #rating-guru {
+		align-self: center;
+	}
+	section .flex-row #right-column #rating-flex #rating-tech {
+		align-self: flex-end;
+	}
+	section .flex-row #right-column #rating-flex .rating-container {
+		width: 430px;
+		padding-top: 18px;
+		padding-bottom: 18px;
+	}
+	section .flex-row #right-column #rating-flex .rating-container .stars {
+		display: inline-block;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	
+	section #testimonials {
+		justify-content: space-between;
+		height: 260px;
+	}
+	section .flex-row .testimony {
+		width: 320px;
+	}
+	section #testimonials #colton-smith{
+		align-self: flex-start;
+	}
+	
+	section #testimonials #irene-roberts{
+		align-self: center;
+	}
+	
+	section #testimonials #anne-wallace{
+		align-self: flex-end;
+	}
+}
