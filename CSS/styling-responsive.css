@@ -9,7 +9,11 @@
 }
 
 @media screen and (min-width: 1140px) {	
-	section {
+	body {
+		background-image: url('../images/bg-pattern-top-desktop.png');
+	}
+	
+		section {
 		width: 1060px;
 		margin: 50px auto;
 	}
