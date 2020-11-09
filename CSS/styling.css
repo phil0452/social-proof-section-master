@@ -14,87 +14,88 @@ body {
 	font-size: 14px;
 }
 
-section .flex-row {
+#main-container .flex-row {
     padding: 25px;
 }
-section .flex-row #left-column {
+#main-container .flex-row #left-column {
 	text-align: center;
 	padding-top: 70px;
 }
 	
-section .flex-row #left-column #headline{
+#main-container .flex-row #left-column #headline{
 	color: hsl(300, 43%, 22%);
 	font-size: 29px;
 	font-weight: 700;
 	padding-left: 20px;
 }
 
-section .flex-row #left-column p {
+#main-container .flex-row #left-column p {
     color: hsl(303, 10%, 53%);    
     padding-left: 20px;
     padding-right: 20px;
     line-height: 23px;
 }
 
-section .flex-row #right-column {
+#main-container .flex-row #right-column {
 	padding-right: 10px;
 	text-align: center;
 }
-section .flex-row #right-column .rating-container {
+#main-container .flex-row #right-column .rating-container {
 	color: hsl(300, 43%, 22%);
 	background-color: hsl(300, 24%, 96%);
 	font-weight: 800;
 	border-radius: 7px;
+	margin: auto;
 	margin-bottom: 15px;
 	padding-top: 15px;
     padding-bottom: 15px;
 }
 
-section .flex-row #right-column .rating-container .stars{
+#main-container .flex-row #right-column .rating-container .stars{
 	padding-bottom: 10px;
 }
 
-section .flex-row .testimony {
+#main-container .flex-row .testimony {
 	background-color: hsl(300, 43%, 22%);
 }
 
-section .flex-row .testimony img{
+#main-container .flex-row .testimony img{
 	width: 35px;
 	border-radius: 20px;
 }
-section .flex-row .testimony {
+#main-container .flex-row .testimony {
 	font-size: 12px;
     padding: 25px;
 	width: 250px;
 	border-radius: 7px;
 	margin-bottom: 20px;
 }
-section .flex-row .testimony .name,
-section .flex-row .testimony p {
+#main-container .flex-row .testimony .name,
+#main-container .flex-row .testimony p {
 	color: hsl(0, 0%, 100%);
 }
 
-section .flex-row .testimony .name {
+#main-container .flex-row .testimony .name {
 	padding-bottom: 5px;
 	margin-right: 5px;
 }
-section .flex-row .testimony .person {
+#main-container .flex-row .testimony .person {
 	width: 140px;
     padding-bottom: 45px;
 }
 
-section .flex-row .testimony .person .buyer{
+#main-container .flex-row .testimony .person .buyer{
 	color: hsl(333, 80%, 67%);
 }
-section .flex-row .testimony .person img{
+#main-container .flex-row .testimony .person img{
 	float: left;
 }
-section .flex-row .testimony span {
+#main-container .flex-row .testimony span {
 	float: right;
 }
-section .flex-row .testimony .name {
+#main-container .flex-row .testimony .name {
 	font-weight: 500;
 }
-section .flex-row .testimony p{
+#main-container .flex-row .testimony p{
 	line-height: 20px;
 }

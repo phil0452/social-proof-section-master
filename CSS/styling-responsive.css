@@ -1,10 +1,36 @@
 @media screen and (min-width: 375px) {
-	section .flex-row #right-column {
+	#main-container .flex-row #right-column {
 		padding-right: 0;
 	}
-	section .flex-row .testimony {
+	#main-container .flex-row .testimony {
 		width: 100%;
 		box-sizing: border-box;
+	}
+	
+	#main-container .flex-row .testimony {
+		width: 320px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media screen and (min-width: 515px) {
+	#main-container .flex-row #right-column .rating-container {
+		width: 430px;
+	}	
+}
+
+@media screen and (min-width: 490px) {
+	#main-container .flex-row #left-column p {
+		max-width: 480px;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+}
+
+@media screen and (min-width: 540px) {
+	#main-container .flex-row #right-column .rating-container {
+		width: 430px;
 	}
 }
 
@@ -13,79 +39,86 @@
 		background-image: url('../images/bg-pattern-top-desktop.png');
 	}
 	
-		section {
+	#main-container {
 		width: 1060px;
 		margin: 50px auto;
 	}
 	
-	section .flex-row {
+	#main-container .flex-row {
 		display: flex;
 		
 	}
-	section .flex-row #left-column {
+	#main-container .flex-row #left-column {
 	    text-align: left;
 		flex: 1 1 50%;
 	}
-	section .flex-row #left-column #headline{
+	#main-container .flex-row #left-column #headline{
 		font-size: 42px;
 		line-height: 45px;
 		padding: 0;
 	}
 	
-	section .flex-row #left-column p {		
-		width: 480px;		
+	#main-container .flex-row #left-column p {		
+		margin-left: unset;
+		margin-right: unset;	
 		padding: 0;
 	}
-	section .flex-row #right-column {
+	#main-container .flex-row #right-column {
 		flex: 1 1 50%;
 		margin-top: auto;
 		padding: 0;
 	}
 	
-	section .flex-row #right-column #rating-flex {
+	#main-container .flex-row #right-column #rating-flex {
 		display: flex;
 		flex-direction: column;
 	}
 	
-	section .flex-row #right-column .rating-container .stars{
-		padding-bottom: 0;
-	}
-	section .flex-row #right-column #rating-flex #rating-reviews {
-		align-self: flex-start;
-	}
-	section .flex-row #right-column #rating-flex #rating-guru {
-		align-self: center;
-	}
-	section .flex-row #right-column #rating-flex #rating-tech {
-		align-self: flex-end;
-	}
-	section .flex-row #right-column #rating-flex .rating-container {
-		width: 430px;
+	#main-container .flex-row #right-column .rating-container {
+		margin: unset;
+		margin-bottom: 15px;
 		padding-top: 18px;
 		padding-bottom: 18px;
 	}
-	section .flex-row #right-column #rating-flex .rating-container .stars {
+	
+	#main-container .flex-row #right-column .rating-container .stars{
+		padding-bottom: 0;
+	}
+	#main-container .flex-row #right-column #rating-flex #rating-reviews {
+		align-self: flex-start;
+	}
+	#main-container .flex-row #right-column #rating-flex #rating-guru {
+		align-self: center;
+	}
+	#main-container .flex-row #right-column #rating-flex #rating-tech {
+		align-self: flex-end;
+	}
+	
+	#main-container .flex-row #right-column #rating-flex .rating-container .stars {
 		display: inline-block;
 		padding-left: 25px;
 		padding-right: 25px;
 	}
 	
-	section #testimonials {
+	#main-container .flex-row .testimony {
+		margin-left: unset;
+		margin-right: unset;
+	}
+	
+	#main-container #testimonials {
 		justify-content: space-between;
 		height: 260px;
 	}
-	section .flex-row .testimony {
-		width: 320px;
-	}
-	section #testimonials #colton-smith{
+	
+	#main-container #testimonials #colton-smith{
 		align-self: flex-start;
 	}
 	
-	section #testimonials #irene-roberts{
+	#main-container #testimonials #irene-roberts{
 		align-self: center;
 	}
 	
-	section #testimonials #anne-wallace{
+	#main-container #testimonials #anne-wallace{
 		align-self: flex-end;
 	}
 }
